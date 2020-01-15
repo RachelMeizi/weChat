@@ -1,0 +1,19 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "群发助手",
+        "fontWeight": "bold",
+        "fontSize": "16",
+        "width": "80px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

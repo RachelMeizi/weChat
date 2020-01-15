@@ -1,0 +1,15 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "群发",
+        "fontSize": "16",
+        "width": "60px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

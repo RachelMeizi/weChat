@@ -1,0 +1,30 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "通讯录",
+        "fontWeight": "bold",
+        "fontSize": "16px",
+        "float": "left",
+        "color": "#000",
+        "width": "80px"
+      },
+      {
+        "text": "",
+        "fontSize": "22px",
+        "fontSrc": "/static/iconfont.ttf",
+        "float": "right",
+        "color": "#000"
+      },
+      {
+        "text": "",
+        "fontSize": "22px",
+        "fontSrc": "/static/iconfont.ttf",
+        "float": "right",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,30 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "发现",
+        "fontSize": "16px",
+        "float": "left",
+        "fontWeight": "bold",
+        "width": "60px",
+        "color": "#000"
+      },
+      {
+        "text": "",
+        "fontSize": "22px",
+        "fontSrc": "/static/iconfont.ttf",
+        "float": "right",
+        "color": "#000"
+      },
+      {
+        "text": "",
+        "fontSize": "22px",
+        "fontSrc": "/static/iconfont.ttf",
+        "float": "right",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

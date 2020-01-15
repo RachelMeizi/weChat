@@ -1,0 +1,1 @@
+<view class="pages"><view class="center_menu"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><view><view class="menu_item"><image src="{{item.img}}" mode="aspectFill"></image><text>{{item.name}}</text></view><view style="{{(item.style)}}"></view></view></block></view></view>

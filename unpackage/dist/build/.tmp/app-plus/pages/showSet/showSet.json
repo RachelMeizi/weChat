@@ -1,0 +1,16 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "设置",
+        "fontWeight": "bold",
+        "fontSize": "16",
+        "width": "60px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

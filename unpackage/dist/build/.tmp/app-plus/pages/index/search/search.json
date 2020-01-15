@@ -1,0 +1,6 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

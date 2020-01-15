@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "通用",
+        "fontSize": "16",
+        "fontWeight": "bold",
+        "width": "60px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

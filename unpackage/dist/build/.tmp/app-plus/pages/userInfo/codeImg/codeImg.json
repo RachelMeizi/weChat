@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "二维码名片",
+        "fontWeight": "bold",
+        "fontSize": "16",
+        "width": "100px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

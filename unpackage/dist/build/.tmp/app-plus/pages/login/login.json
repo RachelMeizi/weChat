@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "usingComponents": {
+    "m-input": "/components/m-input"
+  }
+}

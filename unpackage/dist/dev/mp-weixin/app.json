@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/userInfo/addFriends/addFriends",
+    "pages/index/index",
+    "pages/menList/menList",
+    "pages/find/find",
+    "pages/home/home",
+    "pages/userInfo/userInfo",
+    "pages/showSet/currency/currency",
+    "pages/showSet/showSet",
+    "pages/showSet/Auxiliary/Auxiliary",
+    "pages/showSet/groupAssistant/groupAssistant",
+    "pages/showSet/friendsList/friendsList",
+    "pages/showSet/editNew/editNew",
+    "pages/dataList/dataList",
+    "pages/userInfo/editName/editName",
+    "pages/userInfo/codeImg/codeImg",
+    "pages/index/addNewFriend/addNewFriend",
+    "pages/index/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#45C01A",
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/lib/tab_weixin_normal.png",
+        "selectedIconPath": "static/lib/tab_weixin_pressed.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/menList/menList",
+        "iconPath": "static/lib/tab_address_normal.png",
+        "selectedIconPath": "static/lib/tab_address_pressed.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/lib/tab_find_frd_normal.png",
+        "selectedIconPath": "static/lib/tab_find_frd_pressed.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/lib/tab_settings_normal.png",
+        "selectedIconPath": "static/lib/tab_settings_pressed.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

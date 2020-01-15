@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSize": "26px",
+        "fontSrc": "/static/iconfont.ttf",
+        "float": "right",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

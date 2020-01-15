@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "更改名字",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "确定",
+        "fontSize": "16",
+        "float": "right",
+        "width": "60px",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"pages { background: #FFFFFF; }\n.",[1],"headurl { width: ",[0,100],"; height: ",[0,100],"; border-radius: ",[0,10],"; }\n.",[1],"codeImg { width: ",[0,35],"; height: ",[0,35],"; }\n",],undefined,{path:"./pages/userInfo/userInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/userInfo/userInfo.wxml') } }));

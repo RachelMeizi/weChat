@@ -1,0 +1,358 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#f8f8f8"
+			}
+		}, {
+			"path": "pages/userInfo/addFriends/addFriends",
+			"style": {}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "微信",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "微信",
+							"fontWeight": "bold",
+
+							"fontSize": "16px",
+							"float": "left",
+							"width": "60px",
+							"color": "#000"
+						}, {
+							"text": "\ue508",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}, {
+							"text": "\ue636",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/menList/menList",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "通讯录",
+							"fontWeight": "bold",
+							"fontSize": "16px",
+							"float": "left",
+							"color": "#000",
+							"width": "80px"
+						}, {
+							"text": "\ue508",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}, {
+							"text": "\ue636",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "发现",
+							"fontSize": "16px",
+							"float": "left",
+							"fontWeight": "bold",
+
+							"width": "60px",
+							"color": "#000"
+						}, {
+							"text": "\ue508",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}, {
+							"text": "\ue636",
+							"fontSize": "22px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue886",
+							"fontSize": "26px",
+							"fontSrc": "/static/iconfont.ttf",
+							"float": "right",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "个人信息",
+								"fontWeight": "bold",
+								"fontSize": "16",
+								"width": "80px",
+								"float": "left",
+								"color": "#000"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/showSet/currency/currency",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "通用",
+							"fontSize": "16",
+							"fontWeight": "bold",
+							"width": "60px",
+							"float": "left",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/showSet/showSet",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "设置",
+							"fontWeight": "bold",
+							"fontSize": "16",
+							"width": "60px",
+							"float": "left",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/showSet/Auxiliary/Auxiliary",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "辅助功能",
+							"fontWeight": "bold",
+							"fontSize": "16",
+							"width": "80px",
+							"float": "left",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/showSet/groupAssistant/groupAssistant",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "群发助手",
+								"fontWeight": "bold",
+								"fontSize": "16",
+								"width": "80px",
+								"float": "left",
+								"color": "#000"
+							}
+						]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/showSet/friendsList/friendsList",
+			"style": {
+				"navigationBarTitleText": "选择收信人",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "下一步",
+							"fontSize": "16",
+							"width": "60px",
+							"float": "right",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/showSet/editNew/editNew",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "群发",
+							"fontSize": "16",
+							"width": "60px",
+							"float": "left",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}
+
+		, {
+			"path": "pages/dataList/dataList",
+			"style": {
+				"navigationBarTitleText": "新朋友",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"fontSize": "16",
+							"float": "right",
+							"color": "#000"
+						}, {
+							"text": "随机",
+							"fontSize": "16",
+							"float": "left",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/userInfo/editName/editName",
+			"style": {
+				"navigationBarTitleText": "更改名字",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"fontSize": "16",
+							"float": "right",
+							"width": "60px",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/userInfo/codeImg/codeImg",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "二维码名片",
+								"fontWeight": "bold",
+								"fontSize": "16",
+								"width": "100px",
+								"float": "left",
+								"color": "#000"
+							}
+						]
+					}
+				}
+			}
+		}
+
+		, {
+			"path": "pages/index/addNewFriend/addNewFriend",
+			"style": {
+				"navigationBarTitleText": "添加朋友",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/index/search/search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#45C01A",
+		"borderStyle": "black",
+		"backgroundColor": "#F7F7F7",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/lib/tab_weixin_normal.png",
+				"selectedIconPath": "static/lib/tab_weixin_pressed.png",
+				"text": "微信"
+			}, {
+				"pagePath": "pages/menList/menList",
+				"iconPath": "static/lib/tab_address_normal.png",
+				"selectedIconPath": "static/lib/tab_address_pressed.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/lib/tab_find_frd_normal.png",
+				"selectedIconPath": "static/lib/tab_find_frd_pressed.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/lib/tab_settings_normal.png",
+				"selectedIconPath": "static/lib/tab_settings_pressed.png",
+				"text": "我"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

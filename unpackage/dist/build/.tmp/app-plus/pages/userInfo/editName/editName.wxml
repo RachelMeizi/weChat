@@ -1,0 +1,1 @@
+<view><view class="pages"><view class="input-view"><input data-event-opts="{{[['input',[['getValue',['$event']]]]]}}" value="{{inputValue}}" bindinput="__e"/></view><block wx:if="{{pages==1}}"><text class="tit">好名字让你的朋友更容易记住你</text></block><block wx:if="{{pages==2}}"><text class="tit">好微信号让你的朋友更容易记住你</text></block></view></view>

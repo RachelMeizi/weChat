@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "选择收信人",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "下一步",
+        "fontSize": "16",
+        "width": "60px",
+        "float": "right",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

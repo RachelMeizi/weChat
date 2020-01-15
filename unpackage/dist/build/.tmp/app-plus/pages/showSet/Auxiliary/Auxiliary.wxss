@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.center_menu {
+  width: 100%;
+  display: inline-block;
+}
+.center_menu .menu_item {
+    font-size: 34rpx;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    letter-spacing: 1px;
+    padding: 30rpx 5%;
+    background: #FEFEFE;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    position: relative;
+    border-bottom: 1px solid #EFEFEF;
+}
+.center_menu .menu_item:hover {
+      background: #F6F6F6 !important;
+}
+.center_menu .menu_item::after {
+      content: '';
+      width: 30rpx;
+      height: 30rpx;
+      position: absolute;
+      right: 5%;
+      background: url(data:image/png;base64,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) no-repeat;
+      background-size: 100%;
+}
+.center_menu .menu_item text:nth-of-type(1) {
+      margin-left: 5rpx;
+}
+.center_menu .menu_item image {
+      width: 60rpx;
+      height: 60rpx;
+      padding: 4rpx;
+      margin-right: 10rpx;
+}
+.center_menu .menu_item:nth-of-type(4) {
+      margin-top: 10px;
+}
+

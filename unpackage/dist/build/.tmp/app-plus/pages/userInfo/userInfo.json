@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "个人信息",
+        "fontWeight": "bold",
+        "fontSize": "16",
+        "width": "80px",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

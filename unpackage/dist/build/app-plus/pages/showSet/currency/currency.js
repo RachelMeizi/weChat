@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content-view { background: #FFFFFF; }\n",],undefined,{path:"./pages/showSet/currency/currency.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/showSet/currency/currency.wxml') } }));

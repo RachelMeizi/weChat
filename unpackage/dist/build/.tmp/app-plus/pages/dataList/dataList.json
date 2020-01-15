@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "新朋友",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "确定",
+        "fontSize": "16",
+        "float": "right",
+        "color": "#000"
+      },
+      {
+        "text": "随机",
+        "fontSize": "16",
+        "float": "left",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
